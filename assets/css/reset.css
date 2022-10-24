@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  color: #4d4e53;
+  direction: ltr;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 47.9375em) {
+  * {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.3rem !important;
+  }
+  header {
+    font-size: 1.6rem !important;
+  }
+}
