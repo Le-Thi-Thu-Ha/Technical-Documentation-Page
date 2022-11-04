@@ -1,5 +1,6 @@
 #navbar {
   width: 30%;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -17,7 +18,8 @@
   height: 85%;
   margin: 1.6rem 0;
   padding: 0;
-  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #navbar li {
